@@ -1,0 +1,45 @@
+General Information
+===================
+
+This is MissileLauncher version 0.1.  MissileLauncher controls USB Missile
+Launchers using a gtk+ interface.  It leverages libusb to connect to the USB
+device.
+
+The official 
+
+Installation
+============
+
+See the file 'INSTALL'
+
+How to report bugs
+==================
+
+To repot a bug, visit http://code.google.com/p/missilelauncher/issues/list and
+fill out a bug report form.
+
+Please make sure to include:
+
+* The version of MissileLauncher
+
+* Information about your system. For instance:
+
+   - What operating system and version
+   - For Linux, what version of the C library
+
+  And anything else you think is relevant.
+
+* If the bug was a crash, the exact text that was printed out
+  when the crash occured.
+
+* Further information such as stack traces may be useful, but
+  is not necessary.
+
+Building
+========
+
+It should be as simple as running these two commands:
+
+./configure
+make
+
